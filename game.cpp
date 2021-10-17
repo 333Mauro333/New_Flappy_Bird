@@ -1,18 +1,5 @@
+#include "game.h"
 
-
-class Game
-{
-private:
-
-public:
-	Game();
-	~Game();
-
-	void init();
-	void update();
-	void draw();
-	void close();
-};
 
 Game::Game()
 {
