@@ -4,10 +4,19 @@
     <Filter Include="src">
       <UniqueIdentifier>{c3d74e96-53eb-45b2-9c5a-95b9b8c78282}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{7a4ba428-fc42-4452-84fb-87941cb06851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{3c635d3b-76dc-4f0b-a132-61bfc42bc370}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>src\game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
