@@ -5,9 +5,6 @@
 
 namespace flappy
 {
-	int Game::screenWidth = 640;
-	int Game::screenHeight = 480;
-
 	Game::Game()
 	{
 		const char windowTitle[17] = "New Flappy Bird";
@@ -21,27 +18,6 @@ namespace flappy
 	Game::~Game()
 	{
 
-	}
-
-	void Game::init()
-	{
-		// Obtiene la nueva escena y la carga.
-	}
-	void Game::update()
-	{
-		// Obtiene la escena y la actualiza.
-	}
-	void Game::draw()
-	{
-		BeginDrawing();
-
-		// Obtiene la escena y la dibuja.
-
-		EndDrawing();
-	}
-	void Game::close()
-	{
-		CloseWindow();
 	}
 
 	void Game::run()
@@ -90,5 +66,30 @@ namespace flappy
 			screenHeight = 480;
 			break;
 		}
+	}
+
+
+	int Game::screenWidth = 640;
+	int Game::screenHeight = 480;
+
+	void Game::init()
+	{
+		// Obtiene la nueva escena y la carga.
+	}
+	void Game::update()
+	{
+		// Obtiene la escena y la actualiza.
+	}
+	void Game::draw()
+	{
+		BeginDrawing();
+
+		// Obtiene la escena y la dibuja.
+
+		EndDrawing();
+	}
+	void Game::close()
+	{
+		CloseWindow();
 	}
 }
